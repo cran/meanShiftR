@@ -1,0 +1,13 @@
+5a5314a3a2483717b2e259f79c11adde *DESCRIPTION
+c552cdd119cdbc4a5b4e5dd435114c4f *NAMESPACE
+f0e9e8dc679160c80051b678dd0ad191 *R/knn.R
+79f0a08e2336b1f9574b54c8abb3cd91 *R/meanShift.R
+7ebc38e11e036da7292d6a0307a6e3b4 *R/meanShiftR-internal.R
+acd19904bbcaabeeffab2a9a7feb1f6e *man/knn_meanShift.Rd
+954705535936b03877a668121061a383 *man/meanShift.Rd
+49eb14b63705236b4e5cb45c908a97c2 *src/Makevars
+b82b1bc77d52e1edfaf8653ad9c6c648 *src/kdtree.c
+deacef11751f52b4e5fe51d64f3486f3 *src/kdtree.h
+468fe9850a6ac9d07bb55a693b0da3ff *src/meanShift.c
+d151b44243cb067be6b33b70c3c39b6a *src/median.c
+8757a35813ca77a76146bcedc31f243d *src/median.h
