@@ -1,6 +1,5 @@
-.algorithmEnum <-
-function( param ) {
-  
+.algorithmEnum <- function( param ) {
+  param <- toupper(param) 
   if( param == "LINEAR" )    return( 0 );
   if( param == "KDTREE" )    return( 1 );
   #if( param == "DUALTREE" )  return( 2 );
@@ -10,20 +9,15 @@ function( param ) {
 
   stop( sprintf("Invalid Algorithm = %s",param) )
 }
-.kernelEnum <-
-function( param ) {
-  #if( param == "UNIFORM" ) return( 0 );
-  #if( param == "TRIANGULAR" ) return( 1 );
-  if( param == "NORMAL" )   return( 2 );
-  #if( param == "EPANECHNIKOV") return(3);
-  #if( param == "BIWEIGHT")     return(4);
-  #if( param == "TRIWEIGHT")    return(5);
-  #if( param == "TRICUBE")      return(6);
-  #if( param == "COSINE")       return(7);
-  #if( param == "LOGISTIC")     return(8);
-  #if( param == "SIGMOID")      return(9);
+
+.kernelEnum <- function( param ) {
+  param <- toupper(param) 
+  if( param == "NORMAL" )       return(0);
+  if( param == "EPANECHNIKOV")  return(1);
+  if( param == "BIWEIGHT")      return(2);
+  if( param == "TRIWEIGHT")     return(3);
+  if( param == "TRICUBE")       return(4);
   
   stop( sprintf("Invalid Kernel = %s",param) )
 }
-
 
