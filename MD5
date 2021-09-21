@@ -1,4 +1,4 @@
-1439a86116f7cebb9b3a5cdb756cf7f0 *DESCRIPTION
+65a90260a229816e9b285eb132683e89 *DESCRIPTION
 eb9714b1144529f46289cb435b852e67 *NAMESPACE
 d5db83979ade38955c30d4080e3cfe52 *R/knn.R
 2e106caccafd1c2085a98475841e4a98 *R/meanShift.R
@@ -6,10 +6,10 @@ d5db83979ade38955c30d4080e3cfe52 *R/knn.R
 1873b358c927b3c922c440bcc86fb11b *man/knn_meanShift.Rd
 43e1a18272e699f69974594ba7c80d18 *man/meanShift.Rd
 49eb14b63705236b4e5cb45c908a97c2 *src/Makevars
-22db8525f01b7073a300092a56cd8e80 *src/init.c
+8bd3307603ed8d7272eaf415d56a786c *src/init.c
 af3bdd4009b8463f8dd0abe30d5cc407 *src/kdtree.c
 2bf02802f4deed253b2b3a52574e27be *src/kdtree.h
-25e3b406c506aa0d6f0a89accfb7fae8 *src/meanShift.c
-fe0cc7861b34eae9e1860bdbe3efb5e5 *src/meanShift.h
+343a88710b6c33aa4a4263f4e9c8a728 *src/meanShift.c
+23a10519964c3b4acf30bfe046580d21 *src/meanShift.h
 d151b44243cb067be6b33b70c3c39b6a *src/median.c
 8757a35813ca77a76146bcedc31f243d *src/median.h

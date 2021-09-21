@@ -6,15 +6,16 @@
 #include <stdio.h> 
 #include <stdlib.h>
 
+#if defined _OPENMP
+  #include <omp.h>
+#endif
+
 #include "R.h"
 #include "Rinternals.h"
 #include "Rmath.h"
 #include <R_ext/Rdynload.h>
 #include "kdtree.h"
 #include "meanShift.h"
-#if defined _OPENMP
-  #include <omp.h>
-#endif
 
 /***********************************/
 /* Register SO's                   */
